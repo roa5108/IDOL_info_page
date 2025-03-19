@@ -3,12 +3,31 @@
   <head>
     <title>IDOL - WELCOME</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/style.css" />
     <script src="/colors.js"></script>
+    <style>
+      p a {
+        color: blue;
+        background-color: paleturquoise;
+        text-decoration: underline;
+      }
+
+      p a:hover {
+        background-color: skyblue;
+      }
+    </style>
   </head>
 
   <body>
     <h1><a href="index.html">IDOL</a></h1>
+    <input
+      type="button"
+      value="night"
+      onclick="
+    nightDayHandler(this);
+    "
+      class="btn-gradient purple mini"
+    />
     <div id="grid">
       <ol>
         <li><a href="1.html">장원영</a></li>
@@ -21,7 +40,7 @@
         <h2>IDOL</h2>
         <h3>개요</h3>
         <p>
-          <img src="itzy.jpg" width="500px" /><br />
+          <img src="/asset/itzy.jpg" width="500px" /><br />
           <a
             href="https://namu.wiki/w/%EC%95%84%EC%9D%B4%EB%8F%8C"
             target="_blank"

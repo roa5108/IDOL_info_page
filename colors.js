@@ -8,6 +8,7 @@ var Links = {
     }
   },
 };
+
 var Body = {
   setColor: function (color) {
     document.querySelector('body').style.color = color;
@@ -16,6 +17,7 @@ var Body = {
     document.querySelector('body').style.backgroundColor = color;
   },
 };
+
 function nightDayHandler(self) {
   var target = document.querySelector('body');
   if (self.value === 'night') {
@@ -27,6 +29,6 @@ function nightDayHandler(self) {
     Body.setBackgroundColor('white');
     Body.setColor('black');
     self.value = 'night';
-    Links.setColor('blue');
+    Links.setColor('hotpink');
   }
 }
