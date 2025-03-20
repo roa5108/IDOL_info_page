@@ -84,6 +84,7 @@ h3 {
 }
 
 .btn-gradient {
+  margin: 15px;
   text-decoration: none;
   color: white;
   font-size: 15px;
